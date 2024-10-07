@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Nanum+Myeongjo:wght@400;700;800&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+:root {
+    --black: #000;
+    --white: #FFF;
+    --darkest-green: #243332;
+    --dark-green: #3e514f;
+    --green: #69a380;
+    --teal: #47a69f;
+
+}
+
+body {
+    font-family: "JetBrains Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    margin: 0;
+}
+.alt-font {
+    font-family: "Nanum Myeongjo", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+h2.alt-font {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 0;
+}
+  
+.row {
+    display: flex;
+    flex-flow: row wrap;
+    background-color:  var(--green);
+    justify-content: space-between;
+    padding: 2%;
+}
+
+.col {
+    padding: 1rem;
+    border: solid 1px var(--darkest-green);
+    border-radius: 1rem;
+}
+
+.col.dark {
+    background-color: var(--dark-green);
+    color: var(--white);
+}
+
+.col.teal {
+    background-color: var(--teal);
+    color: var(--white);
+}
+
+.col.half {
+    width: 47%;
+}
+
+.col.one-third {
+    width: calc(100%  / 3 - 2%);
+}
+
+.col.two-thirds {
+    width: 64.66%;
+
+}
+
+nav {
+    display: flex;
+    background-color: var(--darkest-green);
+    color: white;
+    justify-content: center;
+    
+}
+h1 {
+    background-color: var(--darkest-green);
+    color: var(--white);
+    flex-flow: row;
+    justify-content: center;
+    
+}
+
+
+
