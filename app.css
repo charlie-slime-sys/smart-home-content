@@ -102,7 +102,15 @@ h2.alt-font {
     flex-flow: column;
     align-content: center;
     text-align: center;
-    margin-top: 1rem;
+    margin-top: 3rem;
+}
+
+.col.half-margin {
+    display: flex;
+    width: 47%;
+    flex-flow: column;
+    align-content: center;
+    text-align: center;
 }
 
 .col.full {
@@ -112,6 +120,8 @@ h2.alt-font {
     align-content: center;
     text-align: left;
 }
+
+
 
 .col.one-third {
     width: calc(100% / 3 - 2%);
@@ -156,7 +166,7 @@ footer {
     background-color: var(--darkest-green);
     justify-content: space-between;
     padding: 5%;
-    color: #243332;
+    color: #263736;
 }
 
 section.row:only-of-type {
